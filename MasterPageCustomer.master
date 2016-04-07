@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCustomer.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Water Tanker Booking System</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="templatemo_background_section_top">
+    
+    	<div class="templatemo_container">
+		
+        	<div id="templatemo_header">
+				<div id="templatemo_logo_section">            
+		        	<h1>WTBS</h1>            
+					<h2>Water Tanker Booking System</h2>
+				</div>
+               
+         	</div><!-- end of headder -->
+                
+    		<div id="templatemo_menu_panel">
+            
+    			<div id="templatemo_menu_section">
+                
+            		<ul>
+		                
+        		        <li><a href="CustomerHome.aspx">Home</a></li> 
+                		<li><a href="CustomerSearch.aspx">Make Order</a></li> 
+                        <li><a href="customerList.aspx">List Order</a></li> 
+                        <li><a href="CustomerProfile.aspx">Profile</a></li> 
+                        <li><a href="Default.aspx">Logout</a></li>                      
+		            </ul> 
+                    
+				</div>
+                
+		    </div> <!-- end of menu -->
+            
+		</div><!-- end of container-->
+        
+	</div>
+    <!-- end of templatemo_background_section_top-->
+     <div id="templatemo_background_section_middle">
+    
+    	<div class="templatemo_container">
+        
+        	<div id="templatemo_left_section">
+            	
+                <div class="templatemo_post">
+                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                  </asp:ContentPlaceHolder>
+				</div>
+                <!-- end of templatemo_post-->
+              
+
+                 <div id="templatemo_footer_section">
+        		Copyright © 2016 Water Tanker Booking System 
+               </div>
+                
+                
+            </div><!-- end of left section-->
+            
+        </div><!-- end of container-->
+	</div><!-- end of background middle-->
+   
+    <div>
+       
+    </div>
+    </form>
+</body>
+</html>

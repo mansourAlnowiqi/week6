@@ -1,0 +1,21 @@
+memo.nowq@gmail.com
+userName:
+
+mansourAlnowiqi
+
+pass:
+
+mansour00146
+
+somee 
+komo499
+password Komo1234
+
+database login 
+server 
+watertank.mssql.somee.com 
+Datebase name:  watertank  
+user id 
+komo499_SQLLogin_1
+password
+xxtcbjdrgl
